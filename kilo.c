@@ -1,5 +1,4 @@
 /*** includes ***/
-#include <asm-generic/errno-base.h>
 #include <ctype.h>
 #include <errno.h>
 #include <stdio.h>
