@@ -221,17 +221,17 @@ void editor_move_cursor(int key) {
       }
       break;
     case ARROW_RIGHT:
-      if (E.cx != 0) {
+      if (E.cx != E.screencols - 1) {
       E.cx++;
       }
       break;
     case ARROW_UP:
-      if (E.cx != 0) {
+      if (E.cy != 0) {
       E.cy--;
       }
       break;
     case ARROW_DOWN:
-      if (E.cx != 0) {
+      if (E.cy != E.screenrows - 1) {
       E.cy++;
       }
       break;
